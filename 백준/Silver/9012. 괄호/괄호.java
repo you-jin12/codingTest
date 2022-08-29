@@ -9,7 +9,8 @@ public class Main{
         Stack<Character> stack=new Stack<>();
         for(int i=0;i<test;i++){
             String str=br.readLine();
-            for(int j=0;j<str.length();j++){
+            int length=str.length();
+            for(int j=0;j<length;j++){
                 c=str.charAt(j);
                 if(c=='('){
                     stack.push(c);
