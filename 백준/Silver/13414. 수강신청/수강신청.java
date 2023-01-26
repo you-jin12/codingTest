@@ -23,6 +23,7 @@ public class Main{
             if(iter.hasNext()){
                 System.out.println(iter.next());
             }
+            else break;
         }
     }
 }
